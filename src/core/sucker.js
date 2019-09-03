@@ -20,7 +20,7 @@ const get_body = () => {
 
 const get_text = (lucky_guy) => {
   let desc = praise()
-  return `${desc.text}\n${lucky_guy.nick_name}, 你今天真帅！大家快来夸夸他吧(｡･ω･｡)ﾉ♡`
+  return `${desc.text}\n${lucky_guy.nick_name}, 你今天真帅！大家快一起来夸夸他吧(｡･ω･｡)ﾉ♡`
 }
 
 const send_msg = (callback) => {
@@ -40,6 +40,7 @@ exports.sucker = {
   on: () => {
     let counter = 1
     let timer = null
+
     const callback = (err, res, body) => {
       counter += 1
       if (err && counter <= CONFIG.MAX_TIMES) {

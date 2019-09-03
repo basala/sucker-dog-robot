@@ -44,10 +44,14 @@ exports.sucker = {
     const callback = (err, res, body) => {
       counter += 1
       if (err && counter <= CONFIG.MAX_TIMES) {
-        console.log('suck fail\nretry...')
+        if (counter <= CONFIG.MAX_TIMES) {
+          console.log('suck failed\nauto retry...')
+        } else {
+          console.log('suck faied 10 times, please check your netword and retry later.')
+          clearInterval(timer)
+        }
         return
       }
-      clearInterval(timer)
       console.log('suck success')
     }
 

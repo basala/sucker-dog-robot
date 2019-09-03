@@ -1,15 +1,20 @@
 {
   "name": "sucker-dog-robot",
   "version": "0.0.1",
-  "description": "wexin sucker robot, an ass kisser",
+  "description": "wexin sucker robot, an ass kisser, randomly pick a person in your group to flatter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "weather": "node ./src/weather.js",
+    "suck": "node ./src/index.js",
+    "test": "cd sample && chmod +x index.sh && ./index.sh"
   },
   "keywords": [
     "weixin",
     "robot"
   ],
   "author": "Kira",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }

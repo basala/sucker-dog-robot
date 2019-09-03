@@ -1,0 +1,15 @@
+{
+  "name": "sucker-dog-robot",
+  "version": "0.0.1",
+  "description": "wexin sucker robot, an ass kisser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weixin",
+    "robot"
+  ],
+  "author": "Kira",
+  "license": "ISC"
+}

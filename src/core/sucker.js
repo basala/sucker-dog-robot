@@ -38,7 +38,7 @@ const send_msg = (callback) => {
 
 exports.sucker = {
   on: () => {
-    let counter = 1
+    let counter = 0
     let timer = null
 
     const callback = (err, res, body) => {
@@ -47,11 +47,12 @@ exports.sucker = {
         if (counter <= CONFIG.MAX_TIMES) {
           console.log('suck failed\nauto retry...')
         } else {
-          console.log('suck faied 10 times, please check your netword and retry later.')
+          console.log('suck faied 10 times, please check your network and retry later.')
           clearInterval(timer)
         }
         return
       }
+      clearInterval(timer)
       console.log('suck success')
     }
 

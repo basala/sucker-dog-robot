@@ -5,7 +5,7 @@ exports.members = [{
   name: 'alan',
   nick_name: 'alan小哥哥',
 }, {
-  name: 'andrew asa',
+  name: 'andrew.asa',
   nick_name: 'andrew小哥哥'
 }, {
   name: 'Dailer',

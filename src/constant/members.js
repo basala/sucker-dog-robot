@@ -12,7 +12,7 @@ exports.members = [{
   nick_name: 'dailer小哥哥'
 }, {
   name: 'fay',
-  nick_name: 'dailer小哥哥'
+  nick_name: 'fay小哥哥'
 }, {
   name: 'Frank.Qiu',
   nick_name: 'frank小哥哥'
@@ -22,9 +22,6 @@ exports.members = [{
 }, {
   name: 'imp',
   nick_name: '健哥哥'
-}, {
-  name: 'kary',
-  nick_name: 'kary小哥哥'
 }, {
   name: 'Kira',
   nick_name: 'Kira小哥哥'

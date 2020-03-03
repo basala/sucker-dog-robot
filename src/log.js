@@ -1,6 +1,6 @@
 const request = require('request')
 
-const CONFIG = require('./config.js').config
+const CONFIG = require('./core/config.js').config
 
 const send_msg = (callback) => {
   request({

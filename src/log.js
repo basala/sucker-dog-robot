@@ -10,7 +10,7 @@ const send_msg = (callback) => {
     body: {
         'msgtype': 'text',
         'text': {
-            'content': '小哥哥，工作辛苦啦！不要忘了今天的工作日志哦ヾ(◍°∇°◍)ﾉﾞ',
+            'content': '小哥哥小姐姐，工作辛苦啦！不要忘了今天的工作日志哦ヾ(◍°∇°◍)ﾉﾞ',
             'mentioned_list': ['@all']
         }
     }

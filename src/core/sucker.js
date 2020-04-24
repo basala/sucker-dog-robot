@@ -1,7 +1,6 @@
 const lottery = require('../utils/lottery.js').lottery
 const praise = require('../utils/praise.js').praise
 const request = require('request')
-// const log = require('../utils/log.js')
 
 const CONFIG = require('./config.js').config
 
@@ -19,8 +18,12 @@ const get_body = () => {
 }
 
 const get_text = (lucky_guy) => {
-  let desc = praise()
-  return `${desc.text}\n${lucky_guy.nick_name}, 你今天真帅！大家快一起来夸夸他吧(｡･ω･｡)ﾉ♡`
+  let desc = praise(lucky_guy.gender)
+  let content = `${desc.text}\n${lucky_guy.nick_name}`
+  if (lucky_guy.gender === 'female') {
+    return `${content}, 你今天真美！大家快一起来夸夸她吧(｡･ω･｡)ﾉ♡`
+  }
+  return `${content}, 你今天真帅！大家快一起来夸夸他吧(｡･ω･｡)ﾉ♡`
 }
 
 const send_msg = (callback) => {

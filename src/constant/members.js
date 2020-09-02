@@ -1,53 +1,37 @@
 exports.members = [{
-  name: 'young',
-  nick_name: 'young小哥哥',
+  name: 'Sue.Wang',
+  nick_name: 'Sue.Wang小姐姐',
+  gender: 'female'
+}, {
+  name: 'Clarice',
+  nick_name: 'Clarice小姐姐',
+  gender: 'female'
+}, {
+  name: 'Cynthia',
+  nick_name: 'Cynthia小姐姐',
+  gender: 'female'
+}, {
+  name: 'Hongyu.Jiang',
+  nick_name: 'Hongyu.Jiang小哥哥',
   gender: 'male'
 }, {
-  name: 'alan',
-  nick_name: 'alan小哥哥',
+  name: 'Katao',
+  nick_name: 'Katao小哥哥',
   gender: 'male'
 }, {
-  name: 'Dailer',
-  nick_name: 'Dailer小哥哥',
+  name: 'Luoqiyuan',
+  nick_name: 'Luoqiyuan小哥哥',
   gender: 'male'
 }, {
-  name: 'fay',
-  nick_name: 'fay小哥哥',
+  name: 'Mika.Sha',
+  nick_name: 'Mika.Sha小哥哥',
   gender: 'male'
 }, {
-  name: 'Frank.Qiu',
-  nick_name: 'Frank小哥哥',
+  name: 'Rye.Sigh',
+  nick_name: 'Rye.Sigh小哥哥',
   gender: 'male'
 }, {
-  name: 'Guyi',
-  nick_name: 'Guyi小哥哥',
-  gender: 'male'
-}, {
-  name: 'imp',
-  nick_name: '健哥哥',
-  gender: 'male'
-}, {
-  name: 'Kira',
-  nick_name: 'Kira小哥哥',
-  gender: 'male'
-}, {
-  name: 'lei.wang',
-  nick_name: '磊哥哥',
-  gender: 'male'
-}, {
-  name: 'Teller',
-  nick_name: 'Teller小哥哥',
-  gender: 'male'
-}, {
-  name: 'windy',
-  nick_name: 'Windy小哥哥',
-  gender: 'male'
-}, {
-  name: 'Zhenfei.Li',
-  nick_name: 'Zhenfei小哥哥',
-  gender: 'male'
-}, {
-  name: 'Kobi',
-  nick_name: 'Kobi小姐姐',
+  name: 'Wendy.Wu',
+  nick_name: 'Wendy.Wu小姐姐',
   gender: 'female'
 }]
